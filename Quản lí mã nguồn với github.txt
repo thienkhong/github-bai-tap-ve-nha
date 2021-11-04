@@ -1,0 +1,14 @@
+- Quản lí mã nguồn với Git:
+	- Git: Phần mêm công cụ quản lí mã nguồn.
+	- Github: Nơi lưu trữ.
+
+
+	B1: Khởi tạo repo: git init
+    B2: Liên kết đến github: git remote add origin <đường link>
+    B3: Kiểm tra kết nối: git remote -v
+
+    //Bộ 3 câu lệnh để cập nhật mã nguồn lên github
+    B4: Lựa chọn những file mình muốn đẩy lên: git add <tên file>
+    B5: Kiểm tra lại: git status
+    B6: Đóng gói - dán nhãn: git commit -m "nội dung nhãn"
+    B7: Vận chuyển - đưa lên github: git push origin main
